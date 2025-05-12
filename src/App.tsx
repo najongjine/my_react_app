@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import TodoList from "./pages/TodoList";
 import CounterPage from "./pages/CounterPage";
+import PropsPracticePage from "./pages/PropsPracticePage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/todo_list" element={<TodoList />} />
           <Route path="/counterpage" element={<CounterPage />} />
+          <Route path="/props_practice" element={<PropsPracticePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

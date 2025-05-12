@@ -10,6 +10,7 @@ const Header: React.FC = () => {
         <a href="/">홈</a>
         <a href="/counterpage">counterpage(공용 state, 화면 렌더링)</a>
         <a href="/todo_list">Todo List(서버연동X)</a>
+        <a href="/props_practice">Props Practice(부모값 to 자식)</a>
       </nav>
     </header>
   );
