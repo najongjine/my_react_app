@@ -1,3 +1,4 @@
+// src/components/props_practice_page/StudentCard.tsx
 import React from "react";
 
 // 🧒 자식 컴포넌트가 받을 값의 이름(name)과 그 타입(string)을 정해요
