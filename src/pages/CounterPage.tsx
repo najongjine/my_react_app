@@ -8,7 +8,7 @@ const CounterPage: React.FC = () => {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>🔢 Zustand 전역 상태 테스트</h1>
+      <h1 className="text-3xl font-bold underline">🔢 Zustand 전역 상태 테스트</h1>
       <p>현재 숫자: {count}</p>
       {/* 여기서 increase는 이미 정의된 함수예요.
 즉, increase()는 인자가 필요 없는 함수이고, ()=> 없어도
